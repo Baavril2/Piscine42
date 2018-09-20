@@ -1,0 +1,6 @@
+Credentials cache: API:4BAB7C16-89A0-48FB-9CE4-EBF2F371F2AB
+        Principal: baavril@42.FR
+
+  Issued                Expires               Principal
+Aug 27 16:14:27 2018  Sep  3 16:14:21 2018  krbtgt/42.FR@42.FR
+Aug 27 16:21:04 2018  Sep  3 16:14:21 2018  host/vgs-fn1.42.fr@42.FR
