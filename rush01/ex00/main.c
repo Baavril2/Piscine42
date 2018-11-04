@@ -32,6 +32,7 @@ int		check_args(char **argv)
 		if (ft_strlen(argv[i]) != 9)
 		{
 			print_error();
+//			write("Pattern error : wrong number of arguments");
 			return (FALSE);
 		}
 		i++;
@@ -64,9 +65,12 @@ void	solve_sudoku(char **grid, char **grid_rev)
 			display_sudoku(grid);
 		else
 			print_error();
+//			write("solving Error : 2 solutions after backtracks");
+
 	}
 	else
 		print_error();
+//	write("solving error : backtracks found 0 solutions")
 	destroy_grid(grid);
 	destroy_grid(grid_rev);
 }

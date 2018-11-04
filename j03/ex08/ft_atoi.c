@@ -10,6 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include <stdlib.h>
+
 int		ft_atoi(char *str)
 {
 	int i;
@@ -37,3 +40,12 @@ int		ft_atoi(char *str)
 	}
 	return (neg * nb);
 }
+
+int     main(int ac, char **av)
+{
+        (void)ac;
+//      char str[100] = "   --dsfsafd";
+        printf("%d\n", ft_atoi(av[1]));
+        printf("%d\n", atoi(av[1]));
+}
+

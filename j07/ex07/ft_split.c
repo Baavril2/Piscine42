@@ -11,6 +11,9 @@
 /* ************************************************************************** */
 
 #include <stdlib.h>
+#include <stdio.h>
+
+void	ft_print_words_tables(char **tab);	
 
 int		ft_strlen(char *str)
 {
@@ -105,4 +108,10 @@ char	**ft_split(char *str, char *charset)
 	}
 	tab[i] = 0;
 	return (tab);
+}
+
+int 	main(int ac, char **av)
+{
+	(void)ac;
+	ft_print_words_tables(ft_split(av[1], av[2]));
 }
